@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.root-container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid red;
+    overflow: scroll;
+}
+.header{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    /* background-color: red !important; */
+}
+.cell{
+    min-width: 150px;
+    padding: 5px;
+    border: 1px solid #C4C7C5;
+    
+}
+.header-cell{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #ffffff;
+    color: #444746;
+}
+.body{
+    width: fit-content;
+    display: flex;
+    height: 80%;
+}
+.sno{
+    position: sticky;
+    left : 0px;
+}
+.sno-cell{  
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #ffffff;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.main-cell{
+
+}
